@@ -5,7 +5,7 @@ Get a random first name:
 ```
 import requests
 
-nameReq = requests.get("https://NameAPI.jerrylin17.repl.co/name")
+nameReq = requests.get("http://41ad-185-219-167-75.ngrok.io/name/")
 name = nameReq.text
 ```
 
@@ -13,7 +13,7 @@ Get a random last name:
 ```
 import requests
 
-LastNameReq = requests.get("https://NameAPI.jerrylin17.repl.co/lastname")
+LastNameReq = requests.get("http://41ad-185-219-167-75.ngrok.io/lastname/")
 lastName = LastNameReq.text
 ```
 
@@ -21,7 +21,7 @@ Get a random full name:
 ```
 import requests
 
-fullNameReq = requests.get("https://NameAPI.jerrylin17.repl.co/fullname")
+fullNameReq = requests.get("http://41ad-185-219-167-75.ngrok.io/fullname/")
 fullName = fullNameReq.text
 ```
 
